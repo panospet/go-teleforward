@@ -1,0 +1,7 @@
+services:
+  api:
+    container_name: go-teleforward
+    image: p4nospet/go-teleforward:latest
+    environment:
+      TELE_TOKEN: ${TELE_TOKEN}
+      CHAT_ID: ${CHAT_ID}
