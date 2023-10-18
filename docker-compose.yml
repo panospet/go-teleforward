@@ -5,3 +5,5 @@ services:
     environment:
       TELE_TOKEN: ${TELE_TOKEN}
       CHAT_ID: ${CHAT_ID}
+    ports:
+    - "8765:8765"
